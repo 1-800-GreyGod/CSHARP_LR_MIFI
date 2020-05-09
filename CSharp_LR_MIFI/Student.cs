@@ -30,9 +30,9 @@ namespace CSharp_LR_MIFI
         {
             this.year = year;
         }
-        public void GetInfo()
+        public override void GetInfo()
         {
-            Console.WriteLine($"My name is {name}, I'm {age} y.o and I'm a {year} student.");
+            Console.WriteLine($"My name is {name}, I'm {age} y.o and I'm a year {year} student.");
         }
         
     }

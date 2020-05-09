@@ -5,7 +5,7 @@ using System.Text;
 namespace CSharp_LR_MIFI
 {
    
-    class Person
+    abstract class Person
     {
         public string name { get; set; }
         public int age { get; set; }
@@ -49,8 +49,8 @@ namespace CSharp_LR_MIFI
                         break;
                     }
                 }
-            }
-            
+            } 
         }
+        public abstract void GetInfo();
     }
 }

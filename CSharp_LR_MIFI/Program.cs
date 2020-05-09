@@ -11,9 +11,11 @@ namespace CSharp_LR_MIFI
             var p = new Principal();
             var t = new Teacher();
             var s = new Student();
+            var a = new Assistant();
             p.GetInfo();
             t.GetInfo();
             s.GetInfo();
+            a.GetInfo();
             Console.ReadKey();
         }
     }

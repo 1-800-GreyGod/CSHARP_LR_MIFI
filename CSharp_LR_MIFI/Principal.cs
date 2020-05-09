@@ -37,7 +37,7 @@ namespace CSharp_LR_MIFI
         {
             this.department = department;
         }
-        public void GetInfo()
+        public override void GetInfo()
         {
             Console.WriteLine($"My name is {name}, I'm {age} y.o and I'm the principal of {department} department.");
         }

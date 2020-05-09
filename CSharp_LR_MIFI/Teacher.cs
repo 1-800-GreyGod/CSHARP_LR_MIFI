@@ -38,7 +38,7 @@ namespace CSharp_LR_MIFI
         {
             this.subject = subject;
         }
-        public void GetInfo()
+        public override void GetInfo()
         {
             Console.WriteLine($"My name is {name}, I'm {age} y.o and I'm the teacher of {subject}.");
         }
