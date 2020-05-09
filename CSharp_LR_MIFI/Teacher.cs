@@ -11,7 +11,7 @@ namespace CSharp_LR_MIFI
         programming,
         nits
     }
-    class Teacher : Person
+    class Teacher : Person, IPerson, IDepartmentWorker
     {
         public Subject subject { get; set; }
         
@@ -41,6 +41,26 @@ namespace CSharp_LR_MIFI
         public override void GetInfo()
         {
             Console.WriteLine($"My name is {name}, I'm {age} y.o and I'm the teacher of {subject}.");
+        }
+
+        public void Sleep()
+        {
+            Console.WriteLine("*Sleeps peacefully*");
+        }
+
+        public void Eat()
+        {
+            Console.WriteLine("*Goes to the canteen*");   
+        }
+
+        public void BeLate()
+        {
+            Console.WriteLine("Sorry, I had a very important meeting. ");
+        }
+
+        public void AskAQuestion(Student student)
+        {
+            Console.WriteLine($"So, {student.name}, what is the mane principle of nuclear power plant work ");
         }
     }
 }

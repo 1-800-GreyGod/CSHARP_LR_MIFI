@@ -10,7 +10,7 @@ namespace CSharp_LR_MIFI
         sis
 
     }
-    class Principal : Person
+    class Principal : Person, IPerson, IDepartmentWorker
     {
         public Department department { get; set; }
         public Principal() : base()
@@ -40,6 +40,26 @@ namespace CSharp_LR_MIFI
         public override void GetInfo()
         {
             Console.WriteLine($"My name is {name}, I'm {age} y.o and I'm the principal of {department} department.");
+        }
+
+        public void Sleep()
+        {
+            Console.WriteLine("*Sleeps peacefully*");
+        }
+
+        public void Eat()
+        {
+            Console.WriteLine("*Orders food on-line*");
+        }
+
+        public void BeLate()
+        {
+            Console.WriteLine("I'm not late, you all came early!");
+        }
+
+        public void AskAQuestion(Student student)
+        {
+            Console.WriteLine($"So, {student.name}, what is the so-called 'brother' of the deleterious code?");
         }
     }
 }

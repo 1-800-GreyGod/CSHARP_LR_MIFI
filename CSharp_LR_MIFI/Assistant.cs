@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CSharp_LR_MIFI
 {
-    class Assistant : Person
+    class Assistant : Person, IPerson, IDepartmentWorker
     {
         public string teacherName { get; set; }
         public Assistant() : base ()
@@ -34,6 +34,26 @@ namespace CSharp_LR_MIFI
         public override void GetInfo()
         {
             Console.WriteLine($"My name is {name}, I'm {age} y.o and I'm the assistant of {teacherName}.");
+        }
+
+        public void Sleep()
+        {
+            Console.WriteLine("I can't sleep, I have to finish my work");
+        }
+
+        public void Eat()
+        {
+            Console.WriteLine("*Cooks instant noodles*");
+        }
+
+        public void BeLate()
+        {
+            Console.WriteLine($"So, what have you studied with {teacherName} on the last lecture?");
+        }
+
+        public void AskAQuestion(Student student)
+        {
+            Console.WriteLine($"So, {student.name}, what is a square root of 4?");
         }
     }
 }

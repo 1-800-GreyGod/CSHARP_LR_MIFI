@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CSharp_LR_MIFI
 {
-    class Student : Person
+    class Student : Person, IPerson
     {
         public int year { get; protected set; }
         public Student() : base()
@@ -34,6 +34,20 @@ namespace CSharp_LR_MIFI
         {
             Console.WriteLine($"My name is {name}, I'm {age} y.o and I'm a year {year} student.");
         }
-        
+
+        public void Sleep()
+        {
+            Console.WriteLine("I can't sleep, I have to study. ");
+        }
+
+        public void Eat()
+        {
+            Console.WriteLine("*Cooks instant noodles*");
+        }
+
+        public void BeLate()
+        {
+            Console.WriteLine("I'm sorry I'm late, can I join the class?");
+        }
     }
 }
