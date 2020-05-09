@@ -1,0 +1,13 @@
+C:\Users\MadPa\Desktop\CSHARP_LR_MIFI\CSharp_LR_MIFI\CSharp_LR_MIFI\bin\Debug\netcoreapp3.1\CSharp_LR_MIFI.exe
+C:\Users\MadPa\Desktop\CSHARP_LR_MIFI\CSharp_LR_MIFI\CSharp_LR_MIFI\bin\Debug\netcoreapp3.1\CSharp_LR_MIFI.deps.json
+C:\Users\MadPa\Desktop\CSHARP_LR_MIFI\CSharp_LR_MIFI\CSharp_LR_MIFI\bin\Debug\netcoreapp3.1\CSharp_LR_MIFI.runtimeconfig.json
+C:\Users\MadPa\Desktop\CSHARP_LR_MIFI\CSharp_LR_MIFI\CSharp_LR_MIFI\bin\Debug\netcoreapp3.1\CSharp_LR_MIFI.runtimeconfig.dev.json
+C:\Users\MadPa\Desktop\CSHARP_LR_MIFI\CSharp_LR_MIFI\CSharp_LR_MIFI\bin\Debug\netcoreapp3.1\CSharp_LR_MIFI.dll
+C:\Users\MadPa\Desktop\CSHARP_LR_MIFI\CSharp_LR_MIFI\CSharp_LR_MIFI\bin\Debug\netcoreapp3.1\CSharp_LR_MIFI.pdb
+C:\Users\MadPa\Desktop\CSHARP_LR_MIFI\CSharp_LR_MIFI\CSharp_LR_MIFI\obj\Debug\netcoreapp3.1\CSharp_LR_MIFI.csprojAssemblyReference.cache
+C:\Users\MadPa\Desktop\CSHARP_LR_MIFI\CSharp_LR_MIFI\CSharp_LR_MIFI\obj\Debug\netcoreapp3.1\CSharp_LR_MIFI.csproj.CoreCompileInputs.cache
+C:\Users\MadPa\Desktop\CSHARP_LR_MIFI\CSharp_LR_MIFI\CSharp_LR_MIFI\obj\Debug\netcoreapp3.1\CSharp_LR_MIFI.AssemblyInfoInputs.cache
+C:\Users\MadPa\Desktop\CSHARP_LR_MIFI\CSharp_LR_MIFI\CSharp_LR_MIFI\obj\Debug\netcoreapp3.1\CSharp_LR_MIFI.AssemblyInfo.cs
+C:\Users\MadPa\Desktop\CSHARP_LR_MIFI\CSharp_LR_MIFI\CSharp_LR_MIFI\obj\Debug\netcoreapp3.1\CSharp_LR_MIFI.dll
+C:\Users\MadPa\Desktop\CSHARP_LR_MIFI\CSharp_LR_MIFI\CSharp_LR_MIFI\obj\Debug\netcoreapp3.1\CSharp_LR_MIFI.pdb
+C:\Users\MadPa\Desktop\CSHARP_LR_MIFI\CSharp_LR_MIFI\CSharp_LR_MIFI\obj\Debug\netcoreapp3.1\CSharp_LR_MIFI.genruntimeconfig.cache
