@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace CSharp_LR_MIFI
 {
@@ -61,5 +60,6 @@ namespace CSharp_LR_MIFI
         {
             Console.WriteLine($"So, {student.name}, what is the so-called 'brother' of the deleterious code?");
         }
+
     }
 }

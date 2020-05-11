@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
+
 
 namespace CSharp_LR_MIFI
 {
+    
     enum Subject
     {
         none,
@@ -13,6 +12,8 @@ namespace CSharp_LR_MIFI
     }
     class Teacher : Person, IPerson, IDepartmentWorker
     {
+        public delegate void CountErrorHandler();
+        public event CountErrorHandler Error;
         public Subject subject { get; set; }
         
         public Teacher() : base()
@@ -61,6 +62,27 @@ namespace CSharp_LR_MIFI
         public void AskAQuestion(Student student)
         {
             Console.WriteLine($"So, {student.name}, what is the mane principle of nuclear power plant work ");
+        }
+
+        public void AbsentCount(Student[] students)
+        {
+
+            try
+            {
+                var absent = new char[2];
+                for(int i=0; i<=students.Length;i++)
+                {
+                    absent[i] = '+';
+                }
+            }
+            catch (IndexOutOfRangeException ex)
+            {
+                Error?.Invoke();
+            }
+            finally
+            {
+                Console.WriteLine("Process terminated");
+            }
         }
     }
 }

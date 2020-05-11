@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace CSharp_LR_MIFI
 {
     class Student : Person, IPerson
     {
-        public int year { get; protected set; }
+        public int year { get; set; }
         public Student() : base()
         {            
                 while (true)
